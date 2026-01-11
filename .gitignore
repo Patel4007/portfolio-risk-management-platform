@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+
+# Build artifacts
+build/
+cmake-build-*/
+*.o
+*.out
+*.a
+*.so
+*.dylib
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# Python / misc
+__pycache__/
+
+# C++ deps if vendored but not needed
+backend/llama.cpp/
+backend/models/hf/
+backend/models/gguf/
+
+# Large external dependencies
+*.bin
+*.pt
+*.model
+
+# Build artifacts
+build/
+dist/
+*.o
+*.out
+*.so
+*.dylib
+

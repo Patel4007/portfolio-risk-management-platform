@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: portfolio-backend
+    ports:
+      - "8000:8000"
+    environment:
+      MODEL_PATH: /models/gguf/qwen2.5-3b-finance.gguf
+      CI: "false"
+    volumes:
+      - ./backend/models:/models   
