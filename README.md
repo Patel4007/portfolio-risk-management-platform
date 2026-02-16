@@ -14,9 +14,9 @@ The goal of this project is to simulate a real-world portfolio risk system simil
 ## Project Output
 
 <p align="center">
-  <img src="Project_Output/Overview.png" width="450" height="350">
-  <img src="Project_Output/Portfolio%20Dashboard.png" width="450" height="285">
-  <img src="Project_Output/Scenario%20Analysis.png" width="450" height="350">
+  <img src="Project_Output/Overview.png" width="250" height="350">
+  <img src="Project_Output/Portfolio%20Dashboard.png" width="250" height="255">
+  <img src="Project_Output/Scenario%20Analysis.png" width="250" height="170">
 </p>
 
 ## System Architecture
