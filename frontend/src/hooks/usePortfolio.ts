@@ -2,16 +2,18 @@ import { useEffect, useState } from "react";
 import { supabase } from "../supabaseClient";
 import { normalizePortfolio } from "./normalizePortfolio";
 
-const [portfolio, setPortfolio] = useState<{[ticker: string]: number}>({
+export const usePortfolio = () => {
+  const [portfolio, setPortfolio] = useState<{ [ticker: string]: number }>({
     AAPL: 40,
     GOOG: 30,
     TSLA: 20,
     AMZN: 10,
   });
 
-const [tempWeights, setTempWeights] = useState<{[ticker: string]: number}>({ ...portfolio });
-
-export const usePortfolio = () => {
+  const [tempWeights, setTempWeights] = useState<{ [ticker: string]: number }>(
+    {}
+  );
+    
   const [liquidCash, setLiquidCash] = useState(0);
   const [initialPortfolioValue, setInitialPortfolioValue] = useState(100000);
 
