@@ -14,17 +14,6 @@ import { Modal } from "./charts/Modal";
 import { usePortfolio } from "./hooks/usePortfolio";
 import {assetOptions} from "./AssetSelector";
 
-const {
-  portfolio,
-  setPortfolio,
-  liquidCash,
-  setLiquidCash,
-  initialPortfolioValue,
-  setInitialPortfolioValue,
-  addStock,
-  removeStock
-} = usePortfolio();
-
 export const normalizeTicker = (t: string) =>
   t.trim().toUpperCase();
 
@@ -95,6 +84,17 @@ const AVAILABLE_STOCKS = ["AAPL", "GOOG", "TSLA", "AMZN", "VOO", "SPY",
 
 
 const App: React.FC = () => {
+
+  const {
+  portfolio,
+  setPortfolio,
+  liquidCash,
+  setLiquidCash,
+  initialPortfolioValue,
+  setInitialPortfolioValue,
+  addStock,
+  removeStock
+  } = usePortfolio();
 
 
   const tickers = Object.keys(portfolio);
