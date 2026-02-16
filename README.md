@@ -76,7 +76,7 @@ npm run dev
 ```bash
 cd backend
 pip install -r requirements.txt
-python app.py
+uvicorn app:app --reload
 ```
 
 ### Risk Engine
