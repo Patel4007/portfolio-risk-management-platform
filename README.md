@@ -1,7 +1,6 @@
 # Portfolio Risk Management Platform
 
-A portfolio risk management and analytics platform designed to model, analyze and visualize financial risk using statistical and quantitative methods.  
-This project demonstrates end-to-end system design, high-performance risk computation and data-driven financial analytics.
+A portfolio risk management and analytics platform designed to model, analyze and visualize financial risk using statistical and quantitative methods. This project demonstrates end-to-end system design, high-performance risk computation and data-driven financial analytics.
 
 ## Project Objective
 
