@@ -59,24 +59,31 @@ The platform is built as a modular system with clearly separated responsibilitie
 
 ### Clone Repository
 
+```bash
 git clone https://github.com/Patel4007/portfolio-risk-management-platform.git
 cd portfolio-risk-management-platform
+```
 
 ### Frontend
-
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
 ### Backend
 
+```bash
 cd backend
 pip install -r requirements.txt
 python app.py
+```
 
 ### Risk Engine
 
+```bash
 mkdir build && cd build
 cmake ..
 make
 ./var_engine
+```
